@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Test</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@7.3.2/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="assets/css/style.min.css?v=1.0.0">
+
+    <style>
+        :root {
+            --text_color: #3D3D3D;
+            --text_color-adit: #101020;
+            --accent_color: #FF0B53;
+            --main_bg: #17191D;
+            --secondary_bg: #fff;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper ">
+        <!-- header -->
+        <header class="header">
+            <div class="container">
+                <div class="heder__nav flex">
+                    <a href="#" class="logo"><img src="assets/img/logo.png" alt=""></a>
+                    <div class="nav__inner  flex">
+                        <nav class="menu">
+                            <ul class="menu__list flex">
+                                <li class="menu__item">
+                                    <a href="#" class="menu__link">Home
+                                    </a>
+                                </li>
+                                <li class="menu__item">
+                                    <a href="#" class="menu__link">Our Pertners</a>
+                                </li>
+                                <li class="menu__item">
+                                    <a href="#" class="menu__link"> Our Team</a>
+                                </li>
+                                <li class="menu__item">
+                                    <a href="#" class="menu__link">Contact Us</a>
+                                </li>
+                            </ul>
+                            <div class="social-row flex">
+                                <svg class="svgIconFacebook iconReset">
+                                    <use xlink:href="#svgIconFacebook">
+                                    </use>
+                                </svg>
+                                <svg class="svgIconTwitter iconReset">
+                                    <use xlink:href="#svgIconTwitter">
+                                    </use>
+                                </svg>
+                                <svg class="svgIconLinkdin iconReset">
+                                    <use xlink:href="#svgIconLinkdin">
+                                    </use>
+                                </svg>
+                                <svg class="svgIconInstagram iconReset">
+                                    <use xlink:href="#svgIconInstagram">
+                                    </use>
+                                </svg>
+                            </div>
+                            <a href="#" class="privacy">
+                                Privacy Policy
+                            </a>
+                        </nav>
+                    </div>
+                    <div class="burger">
+                        <span></span>
+                        <span class="hidden"></span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- header -->
+        <main class="main" style="background-image: url('assets/img/mainBg.svg');">
+            <div class="container">
+                <div class="offer">
+                    <h1 class="offer__title">
+                        Email marceting for fast-growing
+                        startups
+                    </h1>
+                    <div class="offer__description">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id ut cursus dictum purus enim in in
+                        urna,
+                        suspendisse. Mauris, mollis sed sed ac.
+                    </div>
+                    <div class="offer__btn-inner flex">
+                        <button class="main__btn">Start Now</button>
+                        <button class="main__btn main__btn-transparent">Read More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="main__decor">
+                <img src="assets/img/mainDecor1.svg" class="main__decor-img1" alt="">
+                <img src="assets/img/mainDecor2.svg" class="main__decor-img2" alt="">
+            </div>
+        </main>
+
+        <!-- Partners -->
+        <section class="partners">
+            <!-- tabs -->
+            <div class="container">
+                <h2 class="title">Our Partners</h2>
+
+                <div class="tabs">
+                    <div class="tabs__column content">
+                        <div class="tabs__content tabs__content--active" data-tabs-target="1">
+                            <div class="tabs__inner">
+                                <div class="partners__cont flex">
+                                    <div class="partners__cont-img">
+                                        <img src="assets/img/partners1.png" alt="partners">
+                                    </div>
+                                    <div class="partners__cont-info">
+                                        <span class="partners__cont-name">Tom Dou</span>
+                                        <span class="partners__cont-position">Front-End</span>
+                                    </div>
+
+                                </div>
+                                <div class="partners__text">
+                                    “Lorem ipsum dolor sit amet, consectetur adipiscing elit. At pretium id
+                                    viverra interdum nam odio ultricies. Diam leo, sed neque dui pulvinar condimentum
+                                    pretium. At
+                                    pretium id viverra interdum nam odio ultricies. Diam leo, sed neque dui pulvinar
+                                    condimentum
+                                    pretium.”
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tabs__content" data-tabs-target="2">
+                            <div class="tabs__inner">
+                                <div class="partners__cont flex">
+                                    <div class="partners__cont-img">
+                                        <img src="assets/img/partners1.png" alt="partners">
+                                    </div>
+                                    <div class="partners__cont-info">
+                                        <span class="partners__cont-name">Tom Dou</span>
+                                        <span class="partners__cont-position">Back-End</span>
+                                    </div>
+
+                                </div>
+                                <div class="partners__text">
+                                    “Lorem ipsum dolor sit amet, consectetur adipiscing elit. At pretium id
+                                    viverra interdum nam odio ultricies. Diam leo, sed neque dui pulvinar condimentum
+                                    pretium. At
+                                    pretium id viverra interdum nam odio ultricies. Diam leo, sed neque dui pulvinar
+                                    condimentum
+                                    pretium.”
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tabs__content" data-tabs-target="3">
+                            <div class="tabs__inner">
+                                <div class="partners__cont flex">
+                                    <div class="partners__cont-img">
+                                        <img src="assets/img/partners1.png" alt="partners">
+                                    </div>
+                                    <div class="partners__cont-info">
+                                        <span class="partners__cont-name">Tom Dou</span>
+                                        <span class="partners__cont-position">Front-End</span>
+                                    </div>
+
+                                </div>
+                                <div class="partners__text">
+                                    “Lorem ipsum dolor sit amet, consectetur adipiscing elit. At pretium id
+                                    viverra interdum nam odio ultricies. Diam leo, sed neque dui pulvinar condimentum
+                                    pretium. At
+                                    pretium id viverra interdum nam odio ultricies. Diam leo, sed neque dui pulvinar
+                                    condimentum
+                                    pretium.”
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tabs__content" data-tabs-target="4">
+                            <div class="tabs__inner">
+                                <div class="partners__cont flex">
+                                    <div class="partners__cont-img">
+                                        <img src="assets/img/partners1.png" alt="partners">
+                                    </div>
+                                    <div class="partners__cont-info">
+                                        <span class="partners__cont-name">Tom Dou</span>
+                                        <span class="partners__cont-position">QA</span>
+                                    </div>
+
+                                </div>
+                                <div class="partners__text">
+                                    “Lorem ipsum dolor sit amet, consectetur adipiscing elit. At pretium id
+                                    viverra interdum nam odio ultricies. Diam leo, sed neque dui pulvinar condimentum
+                                    pretium. At
+                                    pretium id viverra interdum nam odio ultricies. Diam leo, sed neque dui pulvinar
+                                    condimentum
+                                    pretium.”
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tabs__content" data-tabs-target="5">
+                            <div class="tabs__inner">
+                                <div class="partners__cont flex">
+                                    <div class="partners__cont-img">
+                                        <img src="assets/img/partners1.png" alt="partners">
+                                    </div>
+                                    <div class="partners__cont-info">
+                                        <span class="partners__cont-name">Tom Dou</span>
+                                        <span class="partners__cont-position">PM</span>
+                                    </div>
+
+                                </div>
+                                <div class="partners__text">
+                                    “Lorem ipsum dolor sit amet, consectetur adipiscing elit. At pretium id
+                                    viverra interdum nam odio ultricies. Diam leo, sed neque dui pulvinar condimentum
+                                    pretium. At
+                                    pretium id viverra interdum nam odio ultricies. Diam leo, sed neque dui pulvinar
+                                    condimentum
+                                    pretium.”
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tabs__content" data-tabs-target="6">
+                            <div class="tabs__inner">
+                                <div class="partners__cont flex">
+                                    <div class="partners__cont-img">
+                                        <img src="assets/img/partners1.png" alt="partners">
+                                    </div>
+                                    <div class="partners__cont-info">
+                                        <span class="partners__cont-name">Tom Dou</span>
+                                        <span class="partners__cont-position">Front-End</span>
+                                    </div>
+
+                                </div>
+                                <div class="partners__text">
+                                    “Lorem ipsum dolor sit amet, consectetur adipiscing elit. At pretium id
+                                    viverra interdum nam odio ultricies. Diam leo, sed neque dui pulvinar condimentum
+                                    pretium. At
+                                    pretium id viverra interdum nam odio ultricies. Diam leo, sed neque dui pulvinar
+                                    condimentum
+                                    pretium.”
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <ul class="tabs__list tabs__column">
+                        <li class="tabs__item">
+                            <button class="tabs__btn tabs__btn--active" data-tabs-path="1">
+                                <img src="assets/img/partnersLogo1.png" alt="partnersLogo" class="partners__logo">
+                            </button>
+                        </li>
+                        <li class="tabs__item">
+                            <button class="tabs__btn" data-tabs-path="2">
+                                <img src="assets/img/partnersLogo2.png" alt="partnersLogo" class="partners__logo">
+                            </button>
+                        </li>
+                        <li class="tabs__item">
+                            <button class="tabs__btn" data-tabs-path="3">
+                                <img src="assets/img/partnersLogo3.png" alt="partnersLogo" class="partners__logo">
+                            </button>
+                        </li>
+                        <li class="tabs__item">
+                            <button class="tabs__btn" data-tabs-path="4">
+                                <img src="assets/img/partnersLogo4.png" alt="partnersLogo" class="partners__logo">
+                            </button>
+                        </li>
+                        <li class="tabs__item">
+                            <button class="tabs__btn" data-tabs-path="5">
+                                <img src="assets/img/partnersLogo5.png" alt="partnersLogo" class="partners__logo">
+                            </button>
+                        </li>
+                        <li class="tabs__item">
+                            <button class="tabs__btn" data-tabs-path="6">
+                                <img src="assets/img/partnersLogo6.png" alt="partnersLogo" class="partners__logo">
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- tabs -->
+        </section>
+        <!-- Partners -->
+
+        <!-- team -->
+        <section class="team">
+            <div class="container">
+                <h2 class="title">Our Team</h2>
+
+                <div class="team__inner flex">
+                    <div class="team__column">
+                        <div class="team__info">
+                            <h3 class="team__info-title"> About</h3>
+                            <div class="team__info-text">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nullam ac sed eget. Dui
+                                in eget a
+                                tristique. Curabitur massa nec non egestas nisl. Fusce nullam ac sed eget. Dui in eget a
+                                tristique.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="team__column" style="min-width: 0;">
+                        <div class="selector">
+                            <div class="selecotr-item">
+                                <input type="radio" id="radio1" name="selector" class="selector-item_radio" checked>
+                                <label for="radio1" class="selector-item_label">Team 1</label>
+                            </div>
+                            <div class="selecotr-item">
+                                <input type="radio" id="radio2" name="selector" class="selector-item_radio">
+                                <label for="radio2" class="selector-item_label">Team 2</label>
+                            </div>
+                            <div class="selecotr-item">
+                                <input type="radio" id="radio3" name="selector" class="selector-item_radio">
+                                <label for="radio3" class="selector-item_label">Team 3</label>
+                            </div>
+                        </div>
+                        <!-- slider -->
+                        <div class="swiper-container team__slider">
+                            <div class="swiper-wrapper  team__slide-inner">
+                                <div class="swiper-slide team__slide-item"
+                                    style="background-image: url('assets/img/slide1.jpg');">
+                                    <div class="team__slide-item__info">
+                                        <div class="team__slide-item__name">Tom Dou</div>
+                                        <div class="team__slide-item__position">Front-End</div>
+                                        <button class="main__btn" id="openPopup">Read More</button>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide team__slide-item"
+                                    style="background-image: url('assets/img/slide2.jpg');">
+                                    <div class="team__slide-item__info">
+                                        <div class="team__slide-item__name">Tom Dou</div>
+                                        <div class="team__slide-item__position">Front-End</div>
+                                        <button class="main__btn" id="openPopup">Read More</button>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide team__slide-item"
+                                    style="background-image: url('assets/img/slide3.jpg');">
+                                    <div class="team__slide-item__info">
+                                        <div class="team__slide-item__name">Tom Dou</div>
+                                        <div class="team__slide-item__position">Front-End</div>
+                                        <button class="main__btn" id="openPopup">Read More</button>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide team__slide-item"
+                                    style="background-image: url('assets/img/slide4.jpg');">
+                                    <div class="team__slide-item__info">
+                                        <div class="team__slide-item__name">Tom Dou</div>
+                                        <div class="team__slide-item__position">Front-End</div>
+                                        <button class="main__btn" id="openPopup">Read More</button>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide team__slide-item"
+                                    style="background-image: url('assets/img/slide3.jpg');">
+                                    <div class="team__slide-item__info">
+                                        <div class="team__slide-item__name">Tom Dou</div>
+                                        <div class="team__slide-item__position">Front-End</div>
+                                        <button class="main__btn" id="openPopup">Read More</button>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide team__slide-item"
+                                    style="background-image: url('assets/img/slide4.jpg');">
+                                    <div class="team__slide-item__info">
+                                        <div class="team__slide-item__name">Tom Dou</div>
+                                        <div class="team__slide-item__position">Front-End</div>
+                                        <button class="main__btn" id="openPopup">Read More</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slider__nav flex">
+                                <div class="swiper-scroll"></div>
+                                <div class="slider__nav-btn flex">
+                                    <button class="swiper-button-prev">
+                                        <img src="assets/img/arrowPrev.svg" alt="arrow">
+                                    </button>
+                                    <button class="swiper-button-next">
+                                        <img src="assets/img/arrowNext.svg" alt="arrow">
+                                    </button>
+                                </div>
+                            </div>
+
+                        </div>
+                        <!-- slider -->
+                    </div>
+                </div>
+                <div class="team__decor">
+                    <img class="team__decor-img1" src="assets/img/teamDecor.svg" alt="">
+                    <img class="team__decor-img2" src="assets/img/teamDecor.svg" alt="">
+                </div>
+            </div>
+        </section>
+        <!-- team -->
+
+        <!-- contact -->
+        <section class="contact" style="background-image: url('assets/img/contactDecor.svg');">
+            <div class="container">
+                <h2 class="title">Contact Us</h2>
+
+                <div class="form">
+                    <div class="inputfield__inner flex">
+                        <div class="inputfield">
+                            <input type="text" placeholder="Your Name">
+                        </div>
+                        <div class="inputfield">
+                            <input type="text" placeholder="Phone Number">
+                        </div>
+                        <div class="inputfield">
+                            <input type="text" placeholder="Email Address
+                    ">
+                        </div>
+                        <div class="inputfield">
+                            <div class="select-inner">
+                                <select name="sources" id="sources" class="custom-select sources"
+                                    placeholder="Предпочитаемый курс">
+                                    <option value="profile">Profile</option>
+                                    <option value="word">Word</option>
+                                    <option value="hashtag">Hashtag</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <textarea name="" id="" placeholder="Message">
+            </textarea>
+                    <div class="form__btns flex">
+                        <input type="file" id="real-file" hidden="hidden" />
+                        <span id="upload-name"></span>
+                        <button type="button" id="fileBtn" class="file__btn">
+                            <svg class="svgIconUpload iconReset">
+                                <use xlink:href="#svgIconUpload">
+                                </use>
+                            </svg>
+                            <span>Upload your CV</span>
+                        </button>
+                        <button class="main__btn main__btn--submit">
+                            Submit
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <img src="assets/img/contactDecor2.svg" alt="" class="contact__decor">
+        </section>
+        <!-- contact -->
+
+        <!-- footer -->
+        <footer class="footer">
+            <div class="container">
+                <h2 class="footer__title title">Where You Can Find Us?</h2>
+                <div class="footer__content flex">
+                    <div class="footer__col">
+                        <h4 class="footer__contact-title">Office 1</h4>
+                        <div class="footer__contact-info">
+                            <div class="footer__contact-location-icon">
+                                <svg class="svgIconLocation iconReset">
+                                    <use xlink:href="#svgIconLocation">
+                                    </use>
+                                </svg>
+                            </div>
+                            <a href="#" class="footer__contact-info-text">Lasnamae linnaosa, Pae tn 25-47</a>
+                        </div>
+                        <div class="footer__contact-info">
+                            <div class="footer__contact-info-icon">
+                                <svg class="svgIconMail iconReset">
+                                    <use xlink:href="#svgIconMail">
+                                    </use>
+                                </svg>
+                            </div>
+                            <a href="mailto:username@mail.com" class="footer__contact-info-text">username@mail.com</a>
+                        </div>
+                        <div class="footer__contact-info">
+                            <div class="footer__contact-info-icon">
+                                <svg class="svgIconPhone iconReset">
+                                    <use xlink:href="#svgIconPhone">
+                                    </use>
+                                </svg>
+                            </div>
+                            <a href="tel:+3125789075" class="footer__contact-info-text">+3125789075</a>
+                        </div>
+                    </div>
+                    <div class="footer__col">
+                        <h4 class="footer__contact-title">Office 1</h4>
+                        <div class="footer__contact-info">
+                            <div class="footer__contact-location-icon">
+                                <svg class="svgIconLocation iconReset">
+                                    <use xlink:href="#svgIconLocation">
+                                    </use>
+                                </svg>
+                            </div>
+                            <a href="#" class="footer__contact-info-text">Lasnamae linnaosa, Pae tn 25-47</a>
+                        </div>
+                        <div class="footer__contact-info">
+                            <div class="footer__contact-info-icon">
+                                <svg class="svgIconMail iconReset">
+                                    <use xlink:href="#svgIconMail">
+                                    </use>
+                                </svg>
+                            </div>
+                            <a href="mailto:username@mail.com" class="footer__contact-info-text">username@mail.com</a>
+                        </div>
+                        <div class="footer__contact-info">
+                            <div class="footer__contact-info-icon">
+                                <svg class="svgIconPhone iconReset">
+                                    <use xlink:href="#svgIconPhone">
+                                    </use>
+                                </svg>
+                            </div>
+                            <a href="tel:+3125789075" class="footer__contact-info-text">+3125789075</a>
+                        </div>
+                    </div>
+                    <div class="footer__col">
+                        <h4 class="footer__social-title">Socials</h4>
+                        <div class="social-row flex">
+                            <svg class="svgIconFacebook iconReset">
+                                <use xlink:href="#svgIconFacebook">
+                                </use>
+                            </svg>
+                            <svg class="svgIconTwitter iconReset">
+                                <use xlink:href="#svgIconTwitter">
+                                </use>
+                            </svg>
+                            <svg class="svgIconLinkdin iconReset">
+                                <use xlink:href="#svgIconLinkdin">
+                                </use>
+                            </svg>
+                            <svg class="svgIconInstagram iconReset">
+                                <use xlink:href="#svgIconInstagram">
+                                </use>
+                            </svg>
+                        </div>
+                        <a href="#" class="privacy">
+                            Privacy Policy
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <img src="assets/img/footerDecor.svg" class="footer__decor" alt="">
+            <!-- popup -->
+            <div class="popup__bg" id="popupBg">
+                <div class="popup-inner" id="popupInner">
+                    <div class="close__inner">
+                        <img src="./assets/img/close.svg" class="close-popup" id="closePopup">
+                    </div>
+                    <div class="popup__content">
+                        <div class="popup__info flex">
+                            <div class="popup__img">
+                                <img src="assets/img/popupImg.jpg" alt="">
+                            </div>
+                            <div class="popup__data">
+                                <div class="popup__data-item flex">
+                                    <div class="popup__data-item-title">Name:</div>
+                                    <div class="popup__data-item-value">Tom Dou</div>
+                                </div>
+                                <div class="popup__data-item flex">
+                                    <div class="popup__data-item-title">Position:</div>
+                                    <div class="popup__data-item-value">Front-End</div>
+                                </div>
+                                <a href="tel:+3125789075" class="popup__data-item flex">
+                                    <div class="popup__data-item-title">Phone:</div>
+                                    <div class="popup__data-item-value">+3125789075</div>
+                                </a>
+                                <a href="mailto:username@mail.com" class="popup__data-item flex">
+                                    <div class="popup__data-item-title">Email:</div>
+                                    <div class="popup__data-item-value">username@mail.com</div>
+                                </a>
+                                <div class="social-row flex">
+                                    <svg class="svgIconFacebook iconReset">
+                                        <use xlink:href="#svgIconFacebook">
+                                        </use>
+                                    </svg>
+                                    <svg class="svgIconTwitter iconReset">
+                                        <use xlink:href="#svgIconTwitter">
+                                        </use>
+                                    </svg>
+                                    <svg class="svgIconLinkdin iconReset">
+                                        <use xlink:href="#svgIconLinkdin">
+                                        </use>
+                                    </svg>
+                                    <svg class="svgIconInstagram iconReset">
+                                        <use xlink:href="#svgIconInstagram">
+                                        </use>
+                                    </svg>
+                                </div>
+                            </div>
+
+                        </div>
+                        <p class="popup__text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nullam ac sed eget. Dui in
+                            eget a
+                            tristique. Curabitur massa nec non egestas nisl. Lorem ipsum dolor sit amet, consectetur
+                            adipiscing
+                            elit. Dui in eget a tristique. Curabitur massa nec non egestas nisl. Lorem ipsum dolor sit
+                            amet,
+                            consectetur adipiscing elit.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- popup -->
+        </footer>
+        <!-- footer -->
+    </div>
+    <!-- SVG Icon sprite -->
+    <svg style="display: none;" version="1.1" xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink">
+        <symbol id="svgIconUpload" viewBox="0 0 20 19">
+            <path
+                d="M2 17H18V10H20V18C20 18.2652 19.8946 18.5196 19.7071 18.7071C19.5196 18.8946 19.2652 19 19 19H1C0.734784 19 0.48043 18.8946 0.292893 18.7071C0.105357 18.5196 0 18.2652 0 18V10H2V17ZM12 7V13H8V7H3L10 0L17 7H12Z" />
+        </symbol>
+        <symbol id="svgIconLocation" viewBox="0 0 18 22">
+            <path
+                d="M9 21.728L2.636 15.364C1.37734 14.1054 0.520187 12.5017 0.172928 10.7559C-0.17433 9.01007 0.00390685 7.20047 0.685099 5.55595C1.36629 3.91142 2.51984 2.50582 3.99988 1.51689C5.47992 0.52796 7.21998 0.00012207 9 0.00012207C10.78 0.00012207 12.5201 0.52796 14.0001 1.51689C15.4802 2.50582 16.6337 3.91142 17.3149 5.55595C17.9961 7.20047 18.1743 9.01007 17.8271 10.7559C17.4798 12.5017 16.6227 14.1054 15.364 15.364L9 21.728ZM13.95 13.95C14.9289 12.971 15.5955 11.7238 15.8656 10.3659C16.1356 9.00807 15.9969 7.60064 15.4671 6.3216C14.9373 5.04256 14.04 3.94935 12.8889 3.18021C11.7378 2.41107 10.3844 2.00055 9 2.00055C7.61557 2.00055 6.26222 2.41107 5.11109 3.18021C3.95996 3.94935 3.06275 5.04256 2.53292 6.3216C2.00308 7.60064 1.86442 9.00807 2.13445 10.3659C2.40449 11.7238 3.07111 12.971 4.05 13.95L9 18.9L13.95 13.95ZM9 11C8.46957 11 7.96086 10.7893 7.58579 10.4143C7.21072 10.0392 7 9.53048 7 9.00004C7 8.46961 7.21072 7.9609 7.58579 7.58583C7.96086 7.21076 8.46957 7.00004 9 7.00004C9.53044 7.00004 10.0391 7.21076 10.4142 7.58583C10.7893 7.9609 11 8.46961 11 9.00004C11 9.53048 10.7893 10.0392 10.4142 10.4143C10.0391 10.7893 9.53044 11 9 11Z" />
+        </symbol>
+        <symbol id="svgIconMail" viewBox="0 0 20 18">
+            <path
+                d="M1 0H19C19.2652 0 19.5196 0.105357 19.7071 0.292893C19.8946 0.48043 20 0.734784 20 1V17C20 17.2652 19.8946 17.5196 19.7071 17.7071C19.5196 17.8946 19.2652 18 19 18H1C0.734784 18 0.48043 17.8946 0.292893 17.7071C0.105357 17.5196 0 17.2652 0 17V1C0 0.734784 0.105357 0.48043 0.292893 0.292893C0.48043 0.105357 0.734784 0 1 0ZM18 4.238L10.072 11.338L2 4.216V16H18V4.238ZM2.511 2L10.061 8.662L17.502 2H2.511Z" />
+        </symbol>
+        <symbol id="svgIconPhone" viewBox="0 0 18 18">
+            <path
+                d="M6.366 7.682C7.30434 9.33048 8.66952 10.6957 10.318 11.634L11.202 10.396C11.3442 10.1969 11.5543 10.0569 11.7928 10.0023C12.0313 9.94779 12.2814 9.98254 12.496 10.1C13.9103 10.8729 15.4722 11.3378 17.079 11.464C17.3298 11.4839 17.5638 11.5975 17.7345 11.7823C17.9052 11.9671 18 12.2094 18 12.461V16.923C18.0001 17.1706 17.9083 17.4094 17.7424 17.5932C17.5765 17.777 17.3483 17.8927 17.102 17.918C16.572 17.973 16.038 18 15.5 18C6.94 18 0 11.06 0 2.5C0 1.962 0.027 1.428 0.082 0.898C0.107255 0.651697 0.222984 0.423521 0.40679 0.257634C0.590595 0.0917472 0.829406 -5.33578e-05 1.077 2.32673e-08H5.539C5.79056 -3.15185e-05 6.0329 0.0947515 6.21768 0.265451C6.40247 0.43615 6.51613 0.670224 6.536 0.921C6.66222 2.52779 7.12708 4.08968 7.9 5.504C8.01746 5.71856 8.05221 5.96874 7.99767 6.2072C7.94312 6.44565 7.80306 6.65584 7.604 6.798L6.366 7.682ZM3.844 7.025L5.744 5.668C5.20478 4.50409 4.83535 3.26884 4.647 2H2.01C2.004 2.166 2.001 2.333 2.001 2.5C2 9.956 8.044 16 15.5 16C15.667 16 15.834 15.997 16 15.99V13.353C14.7312 13.1646 13.4959 12.7952 12.332 12.256L10.975 14.156C10.4287 13.9437 9.89801 13.6931 9.387 13.406L9.329 13.373C7.36758 12.2567 5.74328 10.6324 4.627 8.671L4.594 8.613C4.30691 8.10199 4.05628 7.57134 3.844 7.025Z" />
+        </symbol>
+        <symbol id="svgIconFacebook" viewBox="0 0 34 34">
+            <path
+                d="M19.8333 26.9167H26.9167V7.08333H7.08333V26.9167H17V19.8333H14.1667V17H17V14.6568C17 12.7627 17.1983 12.0757 17.5667 11.3829C17.9295 10.6975 18.4903 10.1372 19.176 9.775C19.7172 9.48458 20.3901 9.31033 21.5659 9.23525C22.032 9.2055 22.6355 9.24233 23.3764 9.34858V12.0402H22.6667C21.3676 12.0402 20.8307 12.1012 20.5105 12.2726C20.3195 12.3708 20.1639 12.5264 20.0657 12.7174C19.8957 13.0376 19.8333 13.3549 19.8333 14.6554V17H23.375L22.6667 19.8333H19.8333V26.9167ZM5.66667 4.25H28.3333C28.7091 4.25 29.0694 4.39926 29.3351 4.66493C29.6007 4.93061 29.75 5.29094 29.75 5.66667V28.3333C29.75 28.7091 29.6007 29.0694 29.3351 29.3351C29.0694 29.6007 28.7091 29.75 28.3333 29.75H5.66667C5.29094 29.75 4.93061 29.6007 4.66493 29.3351C4.39926 29.0694 4.25 28.7091 4.25 28.3333V5.66667C4.25 5.29094 4.39926 4.93061 4.66493 4.66493C4.93061 4.39926 5.29094 4.25 5.66667 4.25V4.25Z" />
+        </symbol>
+        <symbol id="svgIconTwitter" viewBox="0 0 34 34">
+            <path
+                d="M21.675 7.8625C20.5983 7.86232 19.5645 8.28484 18.7962 9.03914C18.0279 9.79343 17.5864 10.8192 17.5667 11.8958L17.527 14.127C17.5247 14.2468 17.4971 14.3648 17.4459 14.4731C17.3948 14.5815 17.3214 14.6778 17.2304 14.7558C17.1395 14.8338 17.033 14.8917 16.9181 14.9257C16.8032 14.9596 16.6824 14.9689 16.5637 14.9529L14.3523 14.6526C11.4424 14.2559 8.65442 12.9157 5.97976 10.6873C5.13259 15.3765 6.78726 18.6249 10.7723 21.131L13.2473 22.6865C13.3648 22.7604 13.4625 22.862 13.5318 22.9824C13.601 23.1028 13.6397 23.2383 13.6445 23.3771C13.6492 23.5159 13.6199 23.6538 13.5591 23.7786C13.4982 23.9034 13.4077 24.0115 13.2954 24.0933L11.0401 25.7408C12.3817 25.8244 13.6553 25.7649 14.7121 25.5552C21.3959 24.2207 25.84 19.1916 25.84 10.8956C25.84 10.2184 24.4063 7.8625 21.675 7.8625V7.8625ZM14.7333 11.8433C14.7581 10.4777 15.1851 9.14978 15.961 8.02573C16.7368 6.90168 17.8271 6.03149 19.0951 5.5241C20.3632 5.01672 21.7528 4.8947 23.0899 5.17331C24.427 5.45192 25.6522 6.11879 26.6121 7.09042C27.6193 7.08333 28.4764 7.33833 30.3932 6.17667C29.9186 8.5 29.6848 9.50867 28.6733 10.8956C28.6733 21.7218 22.0193 26.9861 15.2674 28.3333C10.6378 29.257 3.90576 27.7398 1.97626 25.7253C2.95942 25.6488 6.95442 25.2195 9.26359 23.5294C7.31001 22.2417 -0.466076 17.6658 4.64384 5.3635C7.04226 8.16425 9.47467 10.0711 11.9397 11.0826C13.5802 11.7555 13.9825 11.7413 14.7348 11.8447L14.7333 11.8433Z" />
+        </symbol>
+        <symbol id="svgIconLinkdin" viewBox="0 0 34 34">
+            <path
+                d="M5.66667 4.25H28.3333C28.7091 4.25 29.0694 4.39926 29.3351 4.66493C29.6007 4.93061 29.75 5.29094 29.75 5.66667V28.3333C29.75 28.7091 29.6007 29.0694 29.3351 29.3351C29.0694 29.6007 28.7091 29.75 28.3333 29.75H5.66667C5.29094 29.75 4.93061 29.6007 4.66493 29.3351C4.39926 29.0694 4.25 28.7091 4.25 28.3333V5.66667C4.25 5.29094 4.39926 4.93061 4.66493 4.66493C4.93061 4.39926 5.29094 4.25 5.66667 4.25ZM7.08333 7.08333V26.9167H26.9167V7.08333H7.08333ZM10.625 12.75C10.0614 12.75 9.52091 12.5261 9.1224 12.1276C8.72388 11.7291 8.5 11.1886 8.5 10.625C8.5 10.0614 8.72388 9.52091 9.1224 9.1224C9.52091 8.72388 10.0614 8.5 10.625 8.5C11.1886 8.5 11.7291 8.72388 12.1276 9.1224C12.5261 9.52091 12.75 10.0614 12.75 10.625C12.75 11.1886 12.5261 11.7291 12.1276 12.1276C11.7291 12.5261 11.1886 12.75 10.625 12.75ZM9.20833 14.1667H12.0417V24.7917H9.20833V14.1667ZM17 14.7758C17.8273 13.9754 18.7935 13.4583 19.8333 13.4583C22.7673 13.4583 24.7917 15.8369 24.7917 18.7708V24.7917H21.9583V18.7708C21.9583 18.1133 21.6971 17.4827 21.2322 17.0178C20.7673 16.5529 20.1367 16.2917 19.4792 16.2917C18.8217 16.2917 18.1911 16.5529 17.7261 17.0178C17.2612 17.4827 17 18.1133 17 18.7708V24.7917H14.1667V14.1667H17V14.7758Z" />
+        </symbol>
+        <symbol id="svgIconInstagram" viewBox="0 0 34 34">
+            <path
+                d="M17 12.75C15.8728 12.75 14.7918 13.1978 13.9948 13.9948C13.1977 14.7919 12.75 15.8729 12.75 17C12.75 18.1272 13.1977 19.2082 13.9948 20.0052C14.7918 20.8023 15.8728 21.25 17 21.25C18.1271 21.25 19.2082 20.8023 20.0052 20.0052C20.8022 19.2082 21.25 18.1272 21.25 17C21.25 15.8729 20.8022 14.7919 20.0052 13.9948C19.2082 13.1978 18.1271 12.75 17 12.75ZM17 9.91671C18.8786 9.91671 20.6803 10.663 22.0087 11.9914C23.337 13.3198 24.0833 15.1214 24.0833 17C24.0833 18.8787 23.337 20.6803 22.0087 22.0087C20.6803 23.3371 18.8786 24.0834 17 24.0834C15.1214 24.0834 13.3197 23.3371 11.9913 22.0087C10.6629 20.6803 9.91665 18.8787 9.91665 17C9.91665 15.1214 10.6629 13.3198 11.9913 11.9914C13.3197 10.663 15.1214 9.91671 17 9.91671V9.91671ZM26.2083 9.56254C26.2083 10.0322 26.0217 10.4826 25.6896 10.8147C25.3576 11.1468 24.9071 11.3334 24.4375 11.3334C23.9678 11.3334 23.5174 11.1468 23.1853 10.8147C22.8532 10.4826 22.6666 10.0322 22.6666 9.56254C22.6666 9.09289 22.8532 8.64247 23.1853 8.31037C23.5174 7.97828 23.9678 7.79171 24.4375 7.79171C24.9071 7.79171 25.3576 7.97828 25.6896 8.31037C26.0217 8.64247 26.2083 9.09289 26.2083 9.56254V9.56254ZM17 5.66671C13.4951 5.66671 12.9228 5.67662 11.2922 5.74887C10.1816 5.80129 9.4364 5.95004 8.74506 6.21921C8.13023 6.45721 7.68681 6.74196 7.21506 7.21512C6.77166 7.64352 6.43073 8.16653 6.21773 8.74512C5.94856 9.43929 5.79981 10.183 5.74881 11.2923C5.67515 12.8563 5.66665 13.4031 5.66665 17C5.66665 20.5049 5.67656 21.0772 5.74881 22.7078C5.80123 23.817 5.94998 24.5636 6.21773 25.2535C6.45856 25.8698 6.7419 26.3132 7.21223 26.7835C7.68965 27.2595 8.13306 27.5443 8.74223 27.7795C9.44206 28.05 10.1872 28.2002 11.2922 28.2512C12.8562 28.3249 13.4031 28.3334 17 28.3334C20.5048 28.3334 21.0771 28.3235 22.7077 28.2512C23.8156 28.1988 24.5621 28.05 25.2535 27.7823C25.8669 27.5429 26.3131 27.2581 26.7835 26.7878C27.2609 26.3104 27.5456 25.867 27.7808 25.2578C28.05 24.5594 28.2001 23.8128 28.2511 22.7078C28.3248 21.1438 28.3333 20.597 28.3333 17C28.3333 13.4952 28.3234 12.9229 28.2511 11.2923C28.1987 10.1845 28.05 9.43646 27.7808 8.74512C27.5673 8.16713 27.227 7.64432 26.7849 7.21512C26.3567 6.77149 25.8336 6.43053 25.2549 6.21779C24.5607 5.94862 23.8156 5.79987 22.7077 5.74887C21.1437 5.67521 20.5969 5.66671 17 5.66671ZM17 2.83337C20.8491 2.83337 21.3293 2.84754 22.8395 2.91837C24.3482 2.98921 25.3753 3.22579 26.2791 3.57712C27.2141 3.93696 28.0018 4.42429 28.7895 5.21054C29.5098 5.91873 30.0672 6.77537 30.4229 7.72087C30.7728 8.62329 31.0108 9.65179 31.0816 11.1605C31.1482 12.6707 31.1666 13.151 31.1666 17C31.1666 20.8491 31.1525 21.3294 31.0816 22.8395C31.0108 24.3483 30.7728 25.3754 30.4229 26.2792C30.0683 27.2252 29.5107 28.0821 28.7895 28.7895C28.0811 29.5097 27.2245 30.067 26.2791 30.423C25.3767 30.7729 24.3482 31.0109 22.8395 31.0817C21.3293 31.1483 20.8491 31.1667 17 31.1667C13.1509 31.1667 12.6706 31.1525 11.1605 31.0817C9.65173 31.0109 8.62465 30.7729 7.72081 30.423C6.77494 30.068 5.91814 29.5105 5.21048 28.7895C4.48997 28.0815 3.93255 27.2248 3.57706 26.2792C3.22573 25.3768 2.98915 24.3483 2.91831 22.8395C2.85173 21.3294 2.83331 20.8491 2.83331 17C2.83331 13.151 2.84748 12.6707 2.91831 11.1605C2.98915 9.65037 3.22573 8.62471 3.57706 7.72087C3.93156 6.77479 4.48912 5.91791 5.21048 5.21054C5.91835 4.48978 6.77509 3.93232 7.72081 3.57712C8.62465 3.22579 9.65031 2.98921 11.1605 2.91837C12.6706 2.85179 13.1509 2.83337 17 2.83337Z" />
+        </symbol>
+    </svg>
+
+    <script src="./assets/js/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@7.3.2/swiper-bundle.min.js"></script>
+    <script src="./assets/js/app.js"></script>
+</body>
+
+</html>
